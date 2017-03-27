@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class GenderQueerTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "gq";
-    protected $term = "Gender Queer";
+    protected $value = 'gq';
+    protected $term = 'Gender Queer';
 
     public function testGenderTerms()
     {

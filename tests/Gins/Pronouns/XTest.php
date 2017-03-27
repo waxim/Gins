@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class XTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "x";
-    protected $subject = "X";
-    protected $object = "X";
-    protected $possessive = "X";
-    protected $possessive_plural = "Xs";
-    protected $reflective = "Xself";
+    protected $value = 'x';
+    protected $subject = 'X';
+    protected $object = 'X';
+    protected $possessive = 'X';
+    protected $possessive_plural = 'Xs';
+    protected $reflective = 'Xself';
 
     public function testNouns()
     {

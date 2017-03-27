@@ -9,17 +9,17 @@ class Androgyne extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Androgyne";
+    protected $term = 'Androgyne';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "and";
+    protected $value = 'and';
 
     /**
-     * Construct our gender
+     * Construct our gender.
      *
      * @return $this
      */

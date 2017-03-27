@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class AndrogynousTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "andy";
-    protected $term = "Androgynous";
+    protected $value = 'andy';
+    protected $term = 'Androgynous';
 
     public function testGenderTerms()
     {

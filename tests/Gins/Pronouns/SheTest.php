@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class SheTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "she";
-    protected $subject = "She";
-    protected $object = "Her";
-    protected $possessive = "Her";
-    protected $possessive_plural = "Hers";
-    protected $reflective = "Herself";
+    protected $value = 'she';
+    protected $subject = 'She';
+    protected $object = 'Her';
+    protected $possessive = 'Her';
+    protected $possessive_plural = 'Hers';
+    protected $reflective = 'Herself';
 
     public function testNouns()
     {

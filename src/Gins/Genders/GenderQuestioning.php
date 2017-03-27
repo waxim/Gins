@@ -9,12 +9,12 @@ class GenderQuestioning extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Gender Questioning";
+    protected $term = 'Gender Questioning';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "gqu";
+    protected $value = 'gqu';
 }

@@ -4,9 +4,9 @@ namespace Gins\Tests;
 
 class OtherTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "o";
-    protected $term = "Other";
-    protected $altterm = "M2F Trans";
+    protected $value = 'o';
+    protected $term = 'Other';
+    protected $altterm = 'M2F Trans';
 
     public function testGenderTerms()
     {

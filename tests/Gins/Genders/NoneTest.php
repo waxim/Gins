@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class NoneTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "n";
-    protected $term = "None";
+    protected $value = 'n';
+    protected $term = 'None';
 
     public function testGenderTerms()
     {

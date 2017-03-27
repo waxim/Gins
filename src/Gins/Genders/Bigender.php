@@ -9,12 +9,12 @@ class Bigender extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Bigender";
+    protected $term = 'Bigender';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "big";
+    protected $value = 'big';
 }

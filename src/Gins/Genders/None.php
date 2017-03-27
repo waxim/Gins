@@ -9,12 +9,12 @@ class None extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "None";
+    protected $term = 'None';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "n";
+    protected $value = 'n';
 }

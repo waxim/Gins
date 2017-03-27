@@ -2,7 +2,7 @@
 
 namespace Gins\Tests;
 
-class PronounsTest extends \PHPUnit_Framework_TestCase
+class PronounTest extends \PHPUnit_Framework_TestCase
 {
     public function testPronounList()
     {
@@ -24,7 +24,7 @@ class PronounsTest extends \PHPUnit_Framework_TestCase
     public function testCanFindAPronounByValue()
     {
         $pronouns = new \Gins\Pronouns();
-        $value = "he";
+        $value = 'he';
 
         $male = $pronouns->findOrFailByValue($value);
         $this->assertSame($male->getValue(), $value);
@@ -36,7 +36,7 @@ class PronounsTest extends \PHPUnit_Framework_TestCase
     public function testCantFindAPronounByValue()
     {
         $pronouns = new \Gins\Pronouns();
-        $value = "m";
+        $value = 'm';
 
         $male = $pronouns->findOrFailByValue($value);
         $this->assertSame($male->getValue(), $value);

@@ -9,12 +9,12 @@ class Agender extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Agender";
+    protected $term = 'Agender';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "ag";
+    protected $value = 'ag';
 }

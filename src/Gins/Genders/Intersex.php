@@ -9,12 +9,12 @@ class Intersex extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Intersex";
+    protected $term = 'Intersex';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "i";
+    protected $value = 'i';
 }

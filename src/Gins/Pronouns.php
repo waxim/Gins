@@ -14,17 +14,18 @@ class Pronouns
     protected $nouns = [];
 
     /**
-     * Fill out our pronouns
+     * Fill out our pronouns.
      *
      * @param array $nouns
+     *
      * @return $this
      */
     public function __construct(array $nouns = [])
     {
         $inbuilt = [
-            new \Gins\Pronouns\He,
-            new \Gins\Pronouns\She,
-            new \Gins\Pronouns\They
+            new \Gins\Pronouns\He(),
+            new \Gins\Pronouns\She(),
+            new \Gins\Pronouns\They(),
         ];
 
         $this->nouns = array_merge($nouns, $inbuilt);
@@ -35,7 +36,9 @@ class Pronouns
      * if we dont find one throw error.
      *
      * @param string $value
+     *
      * @throws PronounNotRegistered
+     *
      * @return Gins\Pronoun
      */
     public function findOrFailByValue($value)
@@ -46,13 +49,14 @@ class Pronouns
             }
         }
 
-        throw new PronounNotRegistered;
+        throw new PronounNotRegistered();
     }
 
     /**
-     * Add a pronoun
+     * Add a pronoun.
      *
      * @param Gins\Pronoun $noun
+     *
      * @return void
      */
     public function addNoun(\Gins\Pronoun $noun)
@@ -61,7 +65,7 @@ class Pronouns
     }
 
     /**
-     * Get all our pronouns
+     * Get all our pronouns.
      *
      * @return array|Gins\Gender
      */

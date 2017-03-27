@@ -9,12 +9,12 @@ class GenderNonconforming extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Gender Non-Conforming";
+    protected $term = 'Gender Non-Conforming';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "gnc";
+    protected $value = 'gnc';
 }
