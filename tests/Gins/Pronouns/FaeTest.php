@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class FaeTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "fae";
-    protected $subject = "Fae";
-    protected $object = "Faer";
-    protected $possessive = "Faer";
-    protected $possessive_plural = "Faers";
-    protected $reflective = "Faerself";
+    protected $value = 'fae';
+    protected $subject = 'Fae';
+    protected $object = 'Faer';
+    protected $possessive = 'Faer';
+    protected $possessive_plural = 'Faers';
+    protected $reflective = 'Faerself';
 
     public function testNouns()
     {

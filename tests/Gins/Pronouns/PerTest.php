@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class PerTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "per";
-    protected $subject = "Per";
-    protected $object = "Per";
-    protected $possessive = "Pers";
-    protected $possessive_plural = "Pers";
-    protected $reflective = "Perself";
+    protected $value = 'per';
+    protected $subject = 'Per';
+    protected $object = 'Per';
+    protected $possessive = 'Pers';
+    protected $possessive_plural = 'Pers';
+    protected $reflective = 'Perself';
 
     public function testNouns()
     {

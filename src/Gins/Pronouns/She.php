@@ -5,44 +5,44 @@ namespace Gins\Pronouns;
 class She extends \Gins\Pronoun
 {
     /**
-     * Store a value for this pronoun
+     * Store a value for this pronoun.
      *
      * @var string
      */
-    protected $value = "she";
+    protected $value = 'she';
 
     /**
-     * The Subject noun
+     * The Subject noun.
      *
      * @var string
      */
-    protected $subject = "She";
+    protected $subject = 'She';
 
     /**
-     * The Object noun
+     * The Object noun.
      *
      * @var string
      */
-    protected $object = "Her";
+    protected $object = 'Her';
 
     /**
-     * The Possessive noun
+     * The Possessive noun.
      *
      * @var string
      */
-    protected $possessive = "Her";
+    protected $possessive = 'Her';
 
     /**
-     * The Possessive Plural noun
+     * The Possessive Plural noun.
      *
      * @var string
      */
-    protected $possessive_plural = "Hers";
+    protected $possessive_plural = 'Hers';
 
     /**
-     * The Reflection noun
+     * The Reflection noun.
      *
      * @var string
      */
-    protected $reflective = "Herself";
+    protected $reflective = 'Herself';
 }

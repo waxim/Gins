@@ -14,16 +14,17 @@ class Genders
     protected $genders = [];
 
     /**
-     * Fill out our genders
+     * Fill out our genders.
      *
      * @param array $genders
+     *
      * @return $this
      */
     public function __construct(array $genders = [])
     {
         $inbuilt = [
-            new \Gins\Genders\Male,
-            new \Gins\Genders\Female
+            new \Gins\Genders\Male(),
+            new \Gins\Genders\Female(),
         ];
 
         $this->genders = array_merge($genders, $inbuilt);
@@ -34,7 +35,9 @@ class Genders
      * if we dont find one throw error.
      *
      * @param string $value
+     *
      * @throws GenderNotRegistered
+     *
      * @return Gins\Gender
      */
     public function findOrFailByValue($value)
@@ -45,15 +48,17 @@ class Genders
             }
         }
 
-        throw new GenderNotRegistered;
+        throw new GenderNotRegistered();
     }
 
     /**
      * Check all of our genders for a term
-     * if we dont find one throw error
+     * if we dont find one throw error.
      *
      * @param string $term
+     *
      * @throws GenderNotRegistered
+     *
      * @return Gins\Gender
      */
     public function findOrFailByTerm($term)
@@ -64,13 +69,14 @@ class Genders
             }
         }
 
-        throw new GenderNotRegistered;
+        throw new GenderNotRegistered();
     }
 
     /**
-     * Add a gender
+     * Add a gender.
      *
      * @param Gins\Gender $gender
+     *
      * @return void
      */
     public function addGender(\Gins\Gender $gender)
@@ -79,7 +85,7 @@ class Genders
     }
 
     /**
-     * Get all our genders
+     * Get all our genders.
      *
      * @return array|Gins\Gender
      */

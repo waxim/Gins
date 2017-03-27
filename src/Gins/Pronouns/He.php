@@ -5,44 +5,44 @@ namespace Gins\Pronouns;
 class He extends \Gins\Pronoun
 {
     /**
-     * Store a value for this pronoun
+     * Store a value for this pronoun.
      *
      * @var string
      */
-    protected $value = "he";
+    protected $value = 'he';
 
     /**
-     * The Subject noun
+     * The Subject noun.
      *
      * @var string
      */
-    protected $subject = "He";
+    protected $subject = 'He';
 
     /**
-     * The Object noun
+     * The Object noun.
      *
      * @var string
      */
-    protected $object = "Him";
+    protected $object = 'Him';
 
     /**
-     * The Possessive noun
+     * The Possessive noun.
      *
      * @var string
      */
-    protected $possessive = "His";
+    protected $possessive = 'His';
 
     /**
-     * The Possessive Plural noun
+     * The Possessive Plural noun.
      *
      * @var string
      */
-    protected $possessive_plural = "His";
+    protected $possessive_plural = 'His';
 
     /**
-     * The Reflection noun
+     * The Reflection noun.
      *
      * @var string
      */
-    protected $reflective = "Himself";
+    protected $reflective = 'Himself';
 }

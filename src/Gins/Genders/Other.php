@@ -9,24 +9,24 @@ class Other extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Other";
+    protected $term = 'Other';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "o";
+    protected $value = 'o';
 
     /**
-     * Alt term
+     * Alt term.
      *
      * @var string
      */
     protected $freevalue;
 
     /**
-     * Set a free value
+     * Set a free value.
      *
      * @param $term
      */
@@ -36,7 +36,7 @@ class Other extends \Gins\Gender
     }
 
     /**
-     * Get our term
+     * Get our term.
      *
      * @return string
      */

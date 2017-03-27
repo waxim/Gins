@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class NeutroisTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "no";
-    protected $term = "Neutrois";
+    protected $value = 'no';
+    protected $term = 'Neutrois';
 
     public function testGenderTerms()
     {

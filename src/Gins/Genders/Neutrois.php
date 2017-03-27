@@ -9,12 +9,12 @@ class Neutrois extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Neutrois";
+    protected $term = 'Neutrois';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "no";
+    protected $value = 'no';
 }

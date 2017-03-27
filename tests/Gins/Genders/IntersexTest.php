@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class IntersexTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "i";
-    protected $term = "Intersex";
+    protected $value = 'i';
+    protected $term = 'Intersex';
 
     public function testGenderTerms()
     {

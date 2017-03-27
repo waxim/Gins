@@ -9,12 +9,12 @@ class Transsexual extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Transsexual";
+    protected $term = 'Transsexual';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "ts";
+    protected $value = 'ts';
 }

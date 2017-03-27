@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class ZeTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "ze";
-    protected $subject = "Ze";
-    protected $object = "Hir";
-    protected $possessive = "Hir";
-    protected $possessive_plural = "Hirs";
-    protected $reflective = "Hirself";
+    protected $value = 'ze';
+    protected $subject = 'Ze';
+    protected $object = 'Hir';
+    protected $possessive = 'Hir';
+    protected $possessive_plural = 'Hirs';
+    protected $reflective = 'Hirself';
 
     public function testNouns()
     {

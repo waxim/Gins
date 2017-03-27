@@ -9,12 +9,12 @@ class GenderFluid extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Gender Fluid";
+    protected $term = 'Gender Fluid';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "gf";
+    protected $value = 'gf';
 }

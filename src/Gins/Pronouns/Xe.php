@@ -5,44 +5,44 @@ namespace Gins\Pronouns;
 class Xe extends \Gins\Pronoun
 {
     /**
-     * Store a value for this pronoun
+     * Store a value for this pronoun.
      *
      * @var string
      */
-    protected $value = "xe";
+    protected $value = 'xe';
 
     /**
-     * The Subject noun
+     * The Subject noun.
      *
      * @var string
      */
-    protected $subject = "Xe";
+    protected $subject = 'Xe';
 
     /**
-     * The Object noun
+     * The Object noun.
      *
      * @var string
      */
-    protected $object = "Xem";
+    protected $object = 'Xem';
 
     /**
-     * The Possessive noun
+     * The Possessive noun.
      *
      * @var string
      */
-    protected $possessive = "Xyr";
+    protected $possessive = 'Xyr';
 
     /**
-     * The Possessive Plural noun
+     * The Possessive Plural noun.
      *
      * @var string
      */
-    protected $possessive_plural = "Xyrs";
+    protected $possessive_plural = 'Xyrs';
 
     /**
-     * The Reflection noun
+     * The Reflection noun.
      *
      * @var string
      */
-    protected $reflective = "Xemself";
+    protected $reflective = 'Xemself';
 }

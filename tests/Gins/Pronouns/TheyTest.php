@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class TheyTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "they";
-    protected $subject = "They";
-    protected $object = "Them";
-    protected $possessive = "Their";
-    protected $possessive_plural = "Theirs";
-    protected $reflective = "Themself";
+    protected $value = 'they';
+    protected $subject = 'They';
+    protected $object = 'Them';
+    protected $possessive = 'Their';
+    protected $possessive_plural = 'Theirs';
+    protected $reflective = 'Themself';
 
     public function testNouns()
     {

@@ -9,12 +9,12 @@ class Pangender extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Pangender";
+    protected $term = 'Pangender';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "p";
+    protected $value = 'p';
 }

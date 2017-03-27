@@ -5,42 +5,42 @@ namespace Gins;
 class Pronoun
 {
     /**
-     * Store a value for this pronoun
+     * Store a value for this pronoun.
      *
      * @var string
      */
     protected $value;
 
     /**
-     * The Subject noun
+     * The Subject noun.
      *
      * @var string
      */
     protected $subject;
 
     /**
-     * The Object noun
+     * The Object noun.
      *
      * @var string
      */
     protected $object;
 
     /**
-     * The Possessive noun
+     * The Possessive noun.
      *
      * @var string
      */
     protected $possessive;
 
     /**
-     * The Possessive Plural noun
+     * The Possessive Plural noun.
      *
      * @var string
      */
     protected $possessive_plural;
 
     /**
-     * The Reflection noun
+     * The Reflection noun.
      *
      * @var string
      */
@@ -57,7 +57,7 @@ class Pronoun
     }
 
     /**
-     * Alias for getSubject()
+     * Alias for getSubject().
      *
      * @return string
      */
@@ -67,7 +67,7 @@ class Pronoun
     }
 
     /**
-     * Gets our subject
+     * Gets our subject.
      *
      * @return string
      */
@@ -77,7 +77,7 @@ class Pronoun
     }
 
     /**
-     * Gets our object
+     * Gets our object.
      *
      * @return string
      */
@@ -87,7 +87,7 @@ class Pronoun
     }
 
     /**
-     * Gets our possessive
+     * Gets our possessive.
      *
      * @return string
      */
@@ -97,7 +97,7 @@ class Pronoun
     }
 
     /**
-     * Get possessive_plural
+     * Get possessive_plural.
      *
      * @return string
      */
@@ -107,7 +107,7 @@ class Pronoun
     }
 
     /**
-     * Get reflective
+     * Get reflective.
      *
      * @return string
      */

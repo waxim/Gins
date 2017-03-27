@@ -9,12 +9,12 @@ class GenderQueer extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Gender Queer";
+    protected $term = 'Gender Queer';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "gq";
+    protected $value = 'gq';
 }

@@ -9,17 +9,17 @@ class NonBinary extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Non-Binary";
+    protected $term = 'Non-Binary';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "x";
+    protected $value = 'x';
 
     /**
-     * Construct our gender
+     * Construct our gender.
      *
      * @return $this
      */

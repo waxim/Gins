@@ -24,7 +24,7 @@ class GenderTest extends \PHPUnit_Framework_TestCase
     public function testCanFindAGenderByTerm()
     {
         $genders = new \Gins\Genders();
-        $term = "Male";
+        $term = 'Male';
 
         $male = $genders->findOrFailByTerm($term);
         $this->assertSame($male->getTerm(), $term);
@@ -33,7 +33,7 @@ class GenderTest extends \PHPUnit_Framework_TestCase
     public function testCanFindAGenderByValue()
     {
         $genders = new \Gins\Genders();
-        $value = "m";
+        $value = 'm';
 
         $male = $genders->findOrFailByValue($value);
         $this->assertSame($male->getValue(), $value);
@@ -45,7 +45,7 @@ class GenderTest extends \PHPUnit_Framework_TestCase
     public function testCantFindAGenderByTerm()
     {
         $genders = new \Gins\Genders();
-        $term = "Cup";
+        $term = 'Cup';
 
         $gender = $genders->findOrFailByTerm($term);
         $this->assertSame($gender->getTerm(), $term);
@@ -57,7 +57,7 @@ class GenderTest extends \PHPUnit_Framework_TestCase
     public function testCantFindAGenderByValue()
     {
         $genders = new \Gins\Genders();
-        $value = "?";
+        $value = '?';
 
         $gender = $genders->findOrFailByValue($value);
         $this->assertSame($gender->getValue(), $value);
@@ -68,8 +68,8 @@ class GenderTest extends \PHPUnit_Framework_TestCase
         $male = new \Gins\Genders\Male();
         $nouns = new \Gins\Pronouns\She();
 
-        $this->assertSame($male->getNouns()->getNoun(), "He");
+        $this->assertSame($male->getNouns()->getNoun(), 'He');
         $male->setNouns($nouns);
-        $this->assertSame($male->getNouns()->getNoun(), "She");
+        $this->assertSame($male->getNouns()->getNoun(), 'She');
     }
 }

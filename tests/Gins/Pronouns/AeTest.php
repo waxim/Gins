@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class AeTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "ae";
-    protected $subject = "Ae";
-    protected $object = "Aer";
-    protected $possessive = "Aer";
-    protected $possessive_plural = "Aers";
-    protected $reflective = "Aerself";
+    protected $value = 'ae';
+    protected $subject = 'Ae';
+    protected $object = 'Aer';
+    protected $possessive = 'Aer';
+    protected $possessive_plural = 'Aers';
+    protected $reflective = 'Aerself';
 
     public function testNouns()
     {

@@ -26,7 +26,7 @@ class Gender
     protected $noun;
 
     /**
-     * Get our term
+     * Get our term.
      *
      * @return string
      */
@@ -36,7 +36,7 @@ class Gender
     }
 
     /**
-     * Get our value
+     * Get our value.
      *
      * @return string
      */
@@ -46,7 +46,7 @@ class Gender
     }
 
     /**
-     * Get our nouns
+     * Get our nouns.
      *
      * @return Gins\Pronoun
      */
@@ -56,9 +56,10 @@ class Gender
     }
 
     /**
-     * Set our nouns
+     * Set our nouns.
      *
      * @param Gins\Pronoun
+     *
      * @return string
      */
     public function setNouns(\Gins\Pronoun $nouns)

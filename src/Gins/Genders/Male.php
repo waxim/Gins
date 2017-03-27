@@ -9,17 +9,17 @@ class Male extends \Gins\Gender
      *
      * @var string
      */
-    protected $term = "Male";
+    protected $term = 'Male';
 
     /**
      * The value used to id this gender.
      *
      * @var string
      */
-    protected $value = "m";
+    protected $value = 'm';
 
     /**
-     * Construct our gender
+     * Construct our gender.
      *
      * @return $this
      */

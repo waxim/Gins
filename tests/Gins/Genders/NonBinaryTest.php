@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class NonBinaryTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "x";
-    protected $term = "Non-Binary";
+    protected $value = 'x';
+    protected $term = 'Non-Binary';
 
     public function testGenderTerms()
     {

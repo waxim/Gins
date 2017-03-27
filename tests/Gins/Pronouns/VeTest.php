@@ -4,12 +4,12 @@ namespace Gins\Tests;
 
 class VeTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "ve";
-    protected $subject = "Ve";
-    protected $object = "Ver";
-    protected $possessive = "Vis";
-    protected $possessive_plural = "Vis";
-    protected $reflective = "Verself";
+    protected $value = 've';
+    protected $subject = 'Ve';
+    protected $object = 'Ver';
+    protected $possessive = 'Vis';
+    protected $possessive_plural = 'Vis';
+    protected $reflective = 'Verself';
 
     public function testNouns()
     {

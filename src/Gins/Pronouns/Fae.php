@@ -5,44 +5,44 @@ namespace Gins\Pronouns;
 class Fae extends \Gins\Pronoun
 {
     /**
-     * Store a value for this pronoun
+     * Store a value for this pronoun.
      *
      * @var string
      */
-    protected $value = "fae";
+    protected $value = 'fae';
 
     /**
-     * The Subject noun
+     * The Subject noun.
      *
      * @var string
      */
-    protected $subject = "Fae";
+    protected $subject = 'Fae';
 
     /**
-     * The Object noun
+     * The Object noun.
      *
      * @var string
      */
-    protected $object = "Faer";
+    protected $object = 'Faer';
 
     /**
-     * The Possessive noun
+     * The Possessive noun.
      *
      * @var string
      */
-    protected $possessive = "Faer";
+    protected $possessive = 'Faer';
 
     /**
-     * The Possessive Plural noun
+     * The Possessive Plural noun.
      *
      * @var string
      */
-    protected $possessive_plural = "Faers";
+    protected $possessive_plural = 'Faers';
 
     /**
-     * The Reflection noun
+     * The Reflection noun.
      *
      * @var string
      */
-    protected $reflective = "Faerself";
+    protected $reflective = 'Faerself';
 }

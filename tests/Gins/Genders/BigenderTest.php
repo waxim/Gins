@@ -4,8 +4,8 @@ namespace Gins\Tests;
 
 class BigenderTest extends \PHPUnit_Framework_TestCase
 {
-    protected $value = "big";
-    protected $term = "Bigender";
+    protected $value = 'big';
+    protected $term = 'Bigender';
 
     public function testGenderTerms()
     {
