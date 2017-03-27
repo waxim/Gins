@@ -1,0 +1,10 @@
+{
+    "name": "alancole/gins",
+    "description": "A PHP library for collecting genders and pronouns for people.",
+    "type": "composer",
+    "autoload": {
+        "psr-4": {
+            "Gins\\": "src/Gins"
+        }
+    }
+}
