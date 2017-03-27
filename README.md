@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/waxim/Gins.svg?branch=master)](https://travis-ci.org/waxim/Gins) [![StyleCI](https://styleci.io/repos/86361220/shield?branch=master)](https://styleci.io/repos/86361220)
+
 # Gins
 Gins (Gender is not sex) is a PHP library that provides you with a host of options for genders and pronouns for your users and customers. Too often I arrive at a site with the form field "Gender" and only "Male/Female" as options. We don't live in that world any more. So this attempts to help developers fix that.
 
@@ -6,7 +8,7 @@ This is by no means comprehensive but hopefully people will help expand it over 
 ## Genders
 We provide a comprehensive list of genders to select from.
 
-```
+```php
 $genders = new Gins\Genders();
 
 echo "<select name='gender'>";
@@ -20,7 +22,7 @@ echo "</select>";
 
 Genders will also allow you to pass in a value, and get its term.
 
-```
+```php
 $genders = new Gins\Genders();
 
 try {
@@ -33,7 +35,7 @@ try {
 
 or pass a term and get a value.
 
-```
+```php
 $genders = new Gins\Genders();
 
 try {
@@ -47,20 +49,20 @@ try {
 
 Some genders will presume a pronoun to save on inputs if you wish but its normally best to ask people how they like to be identified so you should use these assumptions with caution.
 
-```
+```php
 $pronoun = $gender->getPronoun();
 print $pronoun->getNoun(); // "He"
 ```
 
 You may set the pronoun to any valid pronoun object.
-```
+```php
 $gender->setPronoun($noun);
 ```
 
 ## Pronouns
 This is a list of accepted or used pronouns and their derivations. There are 5 standard derivations of pronouns in English. Subject "He/She", Object "Him/Her", Possessive "His/Her", Possessive Pronoun (Plural) "His/Hers", Reflexive "Himself/Herself"
 
-```
+```php
 $pronouns = new Gins\Pronouns();
 
 foreach ($pronouns as $noun) {
@@ -73,7 +75,7 @@ foreach ($pronouns as $noun) {
 }
 ```
 
-```
+```php
 $noun = new Gins\Pronouns\He();
 ```
 
@@ -82,7 +84,7 @@ Adding Genders and pronouns is as easy to building new classes which extend the 
 
 Once you've added your own genders and pronouns you can pass them into gins either at constrct or by using the add mehtods.
 
-```
+```php
 $custom_gender = new My\Custom\Gender();
 $custom_gender_two = new My\Custom\GenderTwo();
 
