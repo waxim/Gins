@@ -25,6 +25,22 @@ class Genders
         $inbuilt = [
             new \Gins\Genders\Male(),
             new \Gins\Genders\Female(),
+            new \Gins\Genders\Agender(),
+            new \Gins\Genders\Androgyne(),
+            new \Gins\Genders\Androgynous(),
+            new \Gins\Genders\Bigender(),
+            new \Gins\Genders\GenderFluid(),
+            new \Gins\Genders\GenderNonconforming(),
+            new \Gins\Genders\GenderQueer(),
+            new \Gins\Genders\GenderQuestioning(),
+            new \Gins\Genders\Intersex(),
+            new \Gins\Genders\Neutrois(),
+            new \Gins\Genders\NonBinary(),
+            new \Gins\Genders\None(),
+            new \Gins\Genders\Other(),
+            new \Gins\Genders\Pangender(),
+            new \Gins\Genders\Transgender(),
+            new \Gins\Genders\Transsexual()
         ];
 
         $this->genders = array_merge($genders, $inbuilt);
