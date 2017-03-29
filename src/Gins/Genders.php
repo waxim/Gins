@@ -40,7 +40,7 @@ class Genders
             new \Gins\Genders\Other(),
             new \Gins\Genders\Pangender(),
             new \Gins\Genders\Transgender(),
-            new \Gins\Genders\Transsexual()
+            new \Gins\Genders\Transsexual(),
         ];
 
         $this->genders = array_merge($genders, $inbuilt);
