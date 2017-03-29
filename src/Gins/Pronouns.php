@@ -26,6 +26,14 @@ class Pronouns
             new \Gins\Pronouns\He(),
             new \Gins\Pronouns\She(),
             new \Gins\Pronouns\They(),
+            new \Gins\Pronouns\Ae(),
+            new \Gins\Pronouns\Ey(),
+            new \Gins\Pronouns\Fae(),
+            new \Gins\Pronouns\Per(),
+            new \Gins\Pronouns\Ve(),
+            new \Gins\Pronouns\X(),
+            new \Gins\Pronouns\Xe(),
+            new \Gins\Pronouns\Ze()
         ];
 
         $this->nouns = array_merge($nouns, $inbuilt);
