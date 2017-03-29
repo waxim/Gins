@@ -2,7 +2,7 @@
 
 namespace Gins\Genders;
 
-class Male extends \Gins\Gender
+class Devsex extends \Gins\Gender
 {
     /**
      * The english term for the gender.
