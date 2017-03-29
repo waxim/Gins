@@ -33,7 +33,7 @@ class Pronouns
             new \Gins\Pronouns\Ve(),
             new \Gins\Pronouns\X(),
             new \Gins\Pronouns\Xe(),
-            new \Gins\Pronouns\Ze()
+            new \Gins\Pronouns\Ze(),
         ];
 
         $this->nouns = array_merge($nouns, $inbuilt);
